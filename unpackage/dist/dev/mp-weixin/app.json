@@ -1,0 +1,26 @@
+{
+  "pages": [
+<<<<<<< HEAD
+    "pages/goods/goodsDetail",
+    "pages/index/index",
+    "pages/index/nearStores"
+=======
+    "pages/mine/orderDetail",
+    "pages/mine/order",
+    "pages/mine/integral",
+    "pages/mine/myVip",
+    "pages/index/index",
+    "pages/index/nearStores",
+    "pages/mine/myCollection",
+    "pages/goods/goodsDetail"
+>>>>>>> 6922514... xixi
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

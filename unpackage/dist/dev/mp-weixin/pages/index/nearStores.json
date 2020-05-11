@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "附近门店",
+<<<<<<< HEAD
+=======
+  "navigationBarTextStyle": "white",
+>>>>>>> 6922514... xixi
+  "navigationBarBackgroundColor": "#EB395B",
+  "usingComponents": {}
+}

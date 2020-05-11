@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+<<<<<<< HEAD
+		{
+			"path": "pages/goods/goodsDetail",
+			"style": {
+				"navigationBarTitleText":"商品详情",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+=======
+		//订单详情
+		{
+			"path": "pages/mine/orderDetail",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+		//我的订单
+		{
+			"path": "pages/mine/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+		//我的积分
+		{
+			"path": "pages/mine/integral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+		//我的会员
+		{
+			"path": "pages/mine/myVip",
+			"style": {
+				"navigationBarTitleText": "我的会员",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+		//首页
+>>>>>>> 6922514... xixi
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+<<<<<<< HEAD
+		{
+			"path": "pages/index/nearStores",
+			"style": {
+				"navigationBarTitleText":"附近门店",
+=======
+		//附近门店
+		{
+			"path": "pages/index/nearStores",
+			"style": {
+				"navigationBarTitleText": "附近门店",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+		//我的收藏
+		{
+			"path": "pages/mine/myCollection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		},
+		//商品详情
+		{
+			"path": "pages/goods/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarTextStyle": "white",
+>>>>>>> 6922514... xixi
+				"navigationBarBackgroundColor": "#EB395B"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

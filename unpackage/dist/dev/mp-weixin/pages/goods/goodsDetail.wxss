@@ -1,0 +1,55 @@
+
+template {
+	height: 100%;
+	background: #F4F5F7;
+}
+page {
+	height: 100%;
+	background: #F4F5F7;
+}
+.goodsPic {
+	width: 100%;
+}
+.goodsPic image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.goodsName {
+	width: 690rpx;
+	padding: 15rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: #FFFFFF;
+	border-radius: 15rpx;
+	margin: 0 auto;
+	margin-top: 29rpx;
+}
+.goodsName .top {
+	width: 90%;
+	margin: 0 auto;
+	font-family: '微软雅黑';
+	font-size: 38rpx;
+	color: #33344A;
+	line-height: 40rpx;
+	display: block;
+}
+.goodsName .bottom {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	font-family: '微软雅黑';
+	font-size: 24rpx;
+	color: #999AAA;
+	line-height: 26rpx;
+	margin-top: 17rpx;
+}
+

@@ -1,0 +1,312 @@
+
+template {
+	height: 100%;
+	background-color: #f7f8f9;
+}
+page {
+	height: 100%;
+	background-color: #f7f8f9;
+}
+.bg {
+	height: 100%;
+}
+
+/* 充值vip */
+.vipArea {
+	padding-top: 20rpx;
+}
+.vip {
+	width: 690rpx;
+	margin: 0 auto;
+	border-radius: 20rpx;
+	position: relative;
+}
+.vipPic {
+	width: 690rpx;
+	height: 392rpx;
+	display: block;
+	border-radius: 20rpx;
+}
+.isVip {
+	width: 632rpx;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background: rgba(0, 0, 0, 0.5);
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 0 29rpx;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-bottom-left-radius: 20rpx;
+	border-bottom-right-radius: 20rpx;
+}
+.isVip .left {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.current {
+	font-family: "微软雅黑";
+	font-size: 22rpx;
+	color: #FFFFFF;
+	display: block;
+	margin-right: 14rpx;
+}
+.num {
+	font-family: "微软雅黑";
+	font-size: 38rpx;
+	color: #FFFFFF;
+}
+.isVip .right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.isVip .right view {
+	width: 140rpx;
+	height: 56rpx;
+	border-radius: 28rpx;
+	font-family: "微软雅黑";
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.isVip .right .code {
+	background: #FFFFFF;
+	color: #eb395b;
+	margin-right: 20rpx;
+}
+.isVip .right .nocode {
+	background: #FFFFFF;
+	color: #999aaa;
+	margin-right: 20rpx;
+}
+.isVip .right .record {
+	background: #eb395b;
+	color: #FFFFFF;
+}
+.isVip .right .norecord {
+	background: #999aaa;
+	color: #FFFFFF;
+	margin-right: 20rpx;
+}
+
+/* 充值 */
+.top_up {
+	width: 660rpx;
+	margin: 0 auto;
+	padding: 40rpx 15rpx;
+	border-radius: 10rpx;
+	background-color: #FFFFFF;
+	margin-top: 40rpx;
+}
+.choose {
+	width: 630rpx;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.part {
+	width: 184rpx;
+	height: 194rpx;
+	border-radius: 20rpx;
+	border: 3rpx solid #EB395B;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-bottom: 20rpx;
+}
+.partTop {
+	margin-bottom: 27rpx;
+}
+.priceLeft {
+	font-family: "微软雅黑";
+	font-size: 24rpx;
+	color: #EB395B;
+	font-weight: bold;
+}
+.priceRight {
+	font-family: "微软雅黑";
+	font-size: 32rpx;
+	color: #EB395B;
+	font-weight: bold;
+}
+.partBottom {
+	width: 142rpx;
+	height: 38rpx;
+	text-align: center;
+	background: #fef4ef;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	border-radius: 10rpx;
+	font-family: "微软雅黑";
+	font-size: 20rpx;
+	color: #FA9563;
+	font-weight: bold;
+}
+.partBottom text {
+	line-height: 20rpx;
+	display: block;
+}
+.title {
+	width: 630rpx;
+	margin: 0 auto;
+	margin-top: 20rpx;
+	margin-bottom: 30rpx;
+	font-family: '微软雅黑';
+	font-size: 34rpx;
+	font-weight: 500;
+	color: #000000;
+}
+.button {
+	width: 630rpx;
+	height: 80rpx;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 80rpx;
+	font-family: "微软雅黑";
+	font-size: 28rpx;
+	color: #FFFFFF;
+	background: #EB395B;
+	border-radius: 40rpx;
+	margin-top: 60rpx;
+}
+
+/* 付款码 */
+.payCode {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background: #EB395B;
+}
+.main {
+	width: 630rpx;
+	margin: 0 auto;
+	padding-top: 80rpx;
+	border-radius: 20rpx;
+	background: #FFFFFF;
+}
+.scanCode {
+	width: 100%;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 32rpx;
+	color: #33344A;
+	font-weight: bold;
+	margin-bottom: 80rpx;
+}
+.codePic {
+	width: 420rpx;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 120rpx;
+}
+.payWay {
+	width: 550rpx;
+	height: 140rpx;
+	background-color: #F9FAFB;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 0 40rpx;
+	border-bottom-left-radius: 20rpx;
+	border-bottom-right-radius: 20rpx;
+}
+.wayLeft {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.wayTop {
+	margin-bottom: 20rpx;
+	font-family: "微软雅黑";
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #33344A;
+}
+.wayBottom {
+	font-family: "微软雅黑";
+	font-size: 26rpx;
+	font-weight: bold;
+	color: #999AAA;
+}
+.wayRight image {
+	width: 12rpx;
+	height: auto;
+	display: block;
+}
+

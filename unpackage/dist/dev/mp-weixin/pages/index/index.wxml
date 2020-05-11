@@ -1,0 +1,83 @@
+<<<<<<< HEAD
+<view class="big"><view class="top" style="{{'margin-top:'+(statusBarHeight)+';'}}"><image class="logoPic" src="../../static/index/logo.png" mode="widthFix"></image><image class="topRight" src="../../static/index/topright.png" mode="widthFix"></image></view><view class="banner"><swiper class="swiper" indicator-dots="{{true}}" autoplay="{{false}}" interval="{{3000}}" duration="{{1000}}"><block wx:for="{{bannerList}}" wx:for-item="item" wx:for-index="i" wx:key="i"><swiper-item><view class="swiper-item"><image src="{{item}}" mode="widthFix"></image></view></swiper-item></block></swiper></view><view class="payArea"><view class="payTop"><image class="payTopPic" src="../../static/index/payTop.png" mode="widthFix"></image><view class="payTopText"><view class="payTopLeft"><text class="members">我的会员</text><text class="dec">Membership Privileges</text></view><view class="payTopRight"><image class="payTopRightPic" src="../../static/index/right.png" mode="widthFix"></image></view></view></view><view class="payBottom"><view class="payBottomFirst"><image class="bg" src="../../static/index/payfirst.png" mode="widthFix"></image><view class="textArea"><view class="textAreaLeft"><text class="members">收藏</text></view><view class="textAreaRight"><text class="dec">Collection</text><image class="textAreaRightPic" src="../../static/index/right.png" mode="widthFix"></image></view></view></view><view class="payBottomTwo"><image class="bg" src="../../static/index/paytwo.png" mode="widthFix"></image><view class="textArea"><view class="textAreaLeft"><text class="members">优惠券</text></view><view class="textAreaRight"><text class="dec">Coupons</text><image class="textAreaRightPic" src="../../static/index/right.png" mode="widthFix"></image></view></view></view><view class="payBottomThree"><image class="bg" src="../../static/index/paythree.png" mode="widthFix"></image><view class="textArea"><view class="textAreaLeft"><text class="members">充值会员</text></view><view class="textAreaRight"><text class="dec">Membership</text><image class="textAreaRightPic" src="../../static/index/right.png" mode="widthFix"></image></view></view></view></view></view><view class="nearStores"><text>附近门店</text></view><view class="stores"><scroll-view class="scroll_view" scroll-x="true"><block wx:for="{{nearStores}}" wx:for-item="item" wx:for-index="i" wx:key="*this"><block><view class="first"><view class="blank"></view><view class="img"></view><view class="storeName"><text>{{item.name}}</text></view><view class="storeAddress"><text>{{item.address}}</text></view><view class="more"><text>{{item.juli}}</text><image src="../../static/index/right01.png" mode="widthFix"></image></view><view class="blank"></view></view></block></block></scroll-view></view><view data-event-opts="{{[['tap',[['toStores',['$event']]]]]}}" class="seeMore" bindtap="__e"><text>查看更多</text><image src="../../static/index/seemore.png" mode="widthFix"></image></view></view>
+=======
+<view class="big">
+	<view class="top" style="{{'margin-top:'+(statusBarHeight)+';'}}">
+		<image class="logoPic" src="../../static/index/logo.png" mode="widthFix"></image>
+		<image class="topRight" src="../../static/index/topright.png" mode="widthFix"></image>
+	</view>
+	<view class="banner">
+		<swiper class="swiper" indicator-dots="{{true}}" autoplay="{{false}}" interval="{{3000}}" duration="{{1000}}">
+			<block wx:for="{{bannerList}}" wx:for-item="item" wx:for-index="i" wx:key="i">
+				<swiper-item>
+					<view class="swiper-item">
+						<image src="{{item}}" mode="widthFix"></image>
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<view class="payArea">
+		<view class="payTop">
+			<image class="payTopPic" src="../../static/index/payTop.png" mode="widthFix"></image>
+			<view class="payTopText">
+				<view class="payTopLeft"><text class="members">我的会员</text><text class="dec">Membership Privileges</text></view>
+				<view class="payTopRight">
+					<image class="payTopRightPic" src="../../static/index/right.png" mode="widthFix"></image>
+				</view>
+			</view>
+		</view>
+		<view class="payBottom">
+			<view class="payBottomFirst">
+				<image class="bg" src="../../static/index/payfirst.png" mode="widthFix"></image>
+				<view class="textArea">
+					<view class="textAreaLeft"><text class="members">收藏</text></view>
+					<view class="textAreaRight"><text class="dec">Collection</text>
+						<image class="textAreaRightPic" src="../../static/index/right.png" mode="widthFix"></image>
+					</view>
+				</view>
+			</view>
+			<view class="payBottomTwo">
+				<image class="bg" src="../../static/index/paytwo.png" mode="widthFix"></image>
+				<view class="textArea">
+					<view class="textAreaLeft"><text class="members">优惠券</text></view>
+					<view class="textAreaRight"><text class="dec">Coupons</text>
+						<image class="textAreaRightPic" src="../../static/index/right.png" mode="widthFix"></image>
+					</view>
+				</view>
+			</view>
+			<view class="payBottomThree">
+				<image class="bg" src="../../static/index/paythree.png" mode="widthFix"></image>
+				<view class="textArea">
+					<view class="textAreaLeft"><text class="members">充值会员</text></view>
+					<view class="textAreaRight"><text class="dec">Membership</text>
+						<image class="textAreaRightPic" src="../../static/index/right.png" mode="widthFix"></image>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="nearStores"><text>附近门店</text></view>
+	<view class="stores">
+		<scroll-view class="scroll_view" scroll-x="true">
+			<block wx:for="{{nearStores}}" wx:for-item="item" wx:for-index="i" wx:key="*this">
+				<block>
+					<view class="first">
+						<view class="blank"></view>
+						<view class="img"></view>
+						<view class="storeName"><text>{{item.name}}</text></view>
+						<view class="storeAddress"><text>{{item.address}}</text></view>
+						<view class="more"><text>{{item.juli}}</text>
+							<image src="../../static/index/right01.png" mode="widthFix"></image>
+						</view>
+						<view class="blank"></view>
+					</view>
+				</block>
+			</block>
+		</scroll-view>
+	</view>
+	<view data-event-opts="{{[['tap',[['toStores',['$event']]]]]}}" class="seeMore" bindtap="__e"><text>查看更多</text>
+		<image src="../../static/index/seemore.png" mode="widthFix"></image>
+	</view>
+</view>
+>>>>>>> 6922514... xixi

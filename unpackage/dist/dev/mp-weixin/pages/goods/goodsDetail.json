@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+<<<<<<< HEAD
+=======
+  "navigationBarTextStyle": "white",
+>>>>>>> 6922514... xixi
+  "navigationBarBackgroundColor": "#EB395B",
+  "usingComponents": {}
+}
